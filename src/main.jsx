@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
@@ -8,3 +9,15 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+=======
+import React from 'react'; 
+import ReactDOM from 'react-dom/client'; 
+import { BrowserRouter } from 'react-router-dom'; 
+import App from './App';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+  <App/>
+  </BrowserRouter>
+)
+>>>>>>> b2e3d91fc684ac47fda9117ca4ab7294bef43154
