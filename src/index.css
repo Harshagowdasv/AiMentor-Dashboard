@@ -2,7 +2,6 @@
 body{
     background: url('./assets/backgrounds/sky.jpg');
 }
-=======
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -71,4 +70,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
->>>>>>> b2e3d91fc684ac47fda9117ca4ab7294bef43154
