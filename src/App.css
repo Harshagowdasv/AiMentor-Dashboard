@@ -1,9 +1,4 @@
 body{
-<<<<<<< HEAD
-      background: url('./assets/backgrounds/Gemini_Generated_Image_d2mc8d2mc8d2mc8d.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-=======
   background: linear-gradient(to right,white,pink,yellow);
   background-size: 400% 400%;
   animation: gradient 8s ease infinite;
@@ -42,5 +37,4 @@ button{
 }
 button:hover{
   background: linear-gradient(pink,white,pink);
->>>>>>> b2e3d91fc684ac47fda9117ca4ab7294bef43154
 }
