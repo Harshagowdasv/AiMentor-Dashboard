@@ -1,34 +1,53 @@
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: transparent;
-    color: white;
-    font:bold;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    position: fixed;
+    top: 0%;
+    left: 0%;
 }
 
 nav ul{
     display: flex;
-    gap: 30px;
-    width: 50;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
 }
 
-nav ul button{
-    width: 90px;
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-weight: 500;
     background: transparent;
-    color: white;
     font-size: large;
-    font: bold;
-    padding: 10px;
     cursor: pointer;
     border-radius: 10px;
 }
 
-nav ul button:hover{
-    color: pink;
-    font-size: larger;
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+    color: #ff6b6b;
 }
 
-nav ul .reg{
-    background-color: orange;
+nav ul li a.reg {
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    color: white;
+}
+
+nav ul li a.reg:hover {
+    background: linear-gradient(45deg, #ff5252, #26a69a);
+    transform: translateY(-2px);
 }
